@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MathBase">
+      <UniqueIdentifier>{1d8c71e5-756f-479d-b0a6-ccba265ddaaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{32158916-ce35-4b0c-bf8c-ba007a4f1a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{36c33641-e3c4-418e-9919-93da14d869af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MathBase\Color.cpp">
+      <Filter>MathBase</Filter>
+    </ClCompile>
+    <ClCompile Include="MathBase\Math.cpp">
+      <Filter>MathBase</Filter>
+    </ClCompile>
+    <ClCompile Include="MathBase\Matrix4x4.cpp">
+      <Filter>MathBase</Filter>
+    </ClCompile>
+    <ClCompile Include="MathBase\Vector.cpp">
+      <Filter>MathBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Bound.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Plane.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Rect.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MathBase\Color.h">
+      <Filter>MathBase</Filter>
+    </ClInclude>
+    <ClInclude Include="MathBase\Math.h">
+      <Filter>MathBase</Filter>
+    </ClInclude>
+    <ClInclude Include="MathBase\Matrix4x4.h">
+      <Filter>MathBase</Filter>
+    </ClInclude>
+    <ClInclude Include="MathBase\Vector.h">
+      <Filter>MathBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Bound.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Plane.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Ray.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Rect.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Triangle.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
